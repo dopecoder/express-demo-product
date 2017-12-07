@@ -1,0 +1,14 @@
+{
+  "name": "product",
+  "scripts": {
+    "serverinit": "service mongod start && node server/server.js"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "express": "~4.0.0",
+    "mongoose": "~4.6.8",
+    "morgan": "~1.0.0"
+  }
+}

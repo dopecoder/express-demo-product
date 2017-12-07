@@ -1,0 +1,17 @@
+
+
+The routes start with /api i.e. http://IP/api/product 
+
+YOU CAN USE npm start to start the server.
+YOU MIGHT HAVE TO update the creds for mongodb server.
+
+/api/product/ => POST => name and status to add a new product.
+		 GET  => get all products.
+
+/api/product/enabled => GET => get all products that have status enabled.
+/api/product/disabled=> GET => get "                           " disabled.
+
+/api/product/id/status => PUT => set the product with id to a value status.
+
+/api/product/id => DELETE => delete the object.
+		   GET    => gets the object with id.
